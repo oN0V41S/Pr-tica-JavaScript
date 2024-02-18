@@ -1,5 +1,14 @@
-# Pratica-JavaScript
-## Converter temperatura em Fahrenheit
-Aplicação criada para converter uma temperatura em Celsius para Fahrenheit.
+# Algoritmo Convertor de Temperatura
+Algoritmo para converter temperatura em Celsius para Fahrenheit.
 
-[Acesse Aqui](https://celtofrh-rn.netlify.app/)
+## Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- HTML5
+- CSS3
+- JS
+
+## Projeto
+O projeto está disponível pela platforma neiliy para ver [Clique aqui](https://geradorsenhas-rn.netlify.app/).
+
+## Screenshot
+<img alt="Tela Principal" src="./img/print.png">

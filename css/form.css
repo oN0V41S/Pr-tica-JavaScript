@@ -1,0 +1,57 @@
+/* Formulário  */
+.options{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo do input */
+.options input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    text-align: center;
+    outline: 0;
+    opacity: 0.8;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    /* Animação de foco */
+}.options input:focus{
+    opacity: 1;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: all 500ms ease-in-out;
+}
+
+/* Conteiner do checkbox com label  */
+.checkbox{
+    display: flex;
+    gap: 5px;
+    width: max-content;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Estilo do input  */
+.checkbox input{
+    display: none;
+}
+/* Estilo label  */
+.checkbox label{
+    border-radius: 8px;
+    border: 1px solid red;
+    padding: 8px 15px;
+    width: max-content;
+    font-size: small;
+    font-weight: bold;
+    /* Animação de input checkado  */
+}.checkbox input:checked ~ label{
+    transition: all 500ms;
+    border-color: green;
+}
+

@@ -7,8 +7,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action="">
-        <input type="checkbox" placeholder="Números">
-    </form>
+    <div class="app">
+        <h1>Gerador de Senhas</h1>
+        <form class="options">
+            <input id="qtde" type="number" maxlength="2" placeholder="Quantidade" required>
+            <input id="size" type="number" maxlength="2" placeholder="Tamanho" required>
+            <div class="checkbox">
+                <input id="Especiais" type="checkbox">
+                <label for="Especiais">Caracteres Especiais</label>
+            </div>
+            <div class="checkbox">
+                <input id="Numeros" type="checkbox">
+                <label for="Numeros">Números</label>
+            </div>
+            <div class="checkbox">
+                <input id="Maiusculas" type="checkbox">
+                <label for="Maiusculas">Letras Maiúsculas</label>
+            </div>
+            <button type="submit">Reset</button>
+            <button id="BtnGerar" type="button">Gerar Senha</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

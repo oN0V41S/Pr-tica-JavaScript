@@ -8,7 +8,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JS
 
 ## Projeto
-O projeto está disponível pela platforma neiliy para ver [Clique aqui](https://geradorsenhas-rn.netlify.app/).
+O projeto está disponível pela platforma neiliy para ver [Clique aqui](https://celtofrh-rn.netlify.app/).
 
 ## Screenshot
 <img alt="Tela Principal" src="./img/print.png">

@@ -10,8 +10,8 @@
     <div class="app">
         <h1>Gerador de Senhas</h1>
         <form class="options">
-            <input id="qtde" type="number" maxlength="2" placeholder="Quantidade" required>
-            <input id="size" type="number" maxlength="2" placeholder="Tamanho" required>
+            <input id="qtde" type="number" min="0" max="20" placeholder="Quantidade" required>
+            <input id="size" type="number" min="0" max="10"  placeholder="Tamanho" required>
             <div class="checkbox">
                 <input id="Especiais" type="checkbox">
                 <label for="Especiais">Caracteres Especiais</label>

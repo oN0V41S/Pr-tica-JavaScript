@@ -7,9 +7,9 @@ function GerarSenha() {
 
     // Adicionando e validando valores do input
     let qtdeInput = parseInt(document.querySelector(".app form #qtde").value);
-    if(qtdeInput > 10){ alert("Só podem ser geradas 10 Senhas"); return false}
+    if(qtdeInput > 10 || qtdeInput < 0){ alert("Quantidade de senha inválido"); return false}
     let sizeInput = parseInt(document.querySelector(".app .options #size").value);
-    if(sizeInput > 20){ alert("só podem gerar senhas com 20 caracteres."); return false }
+    if(sizeInput > 20 || sizeInput < 0){ alert("Tamanho de senha inválido"); return false }
 
     
 
